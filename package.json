@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-mongodb-express-musisha",
+  "version": "1.0.0",
+  "description": "This will teach and test you on how to connect to mongo db, create databases, collections and adding and retrieving documents.\r With Express and Node JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musisha/todoApp.git"
+  },
+  "author": "mark musisha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/musisha/todoApp.git"
+  },
+  "homepage": "https://github.com/musisha/todoApp.git#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jshint": "^2.10.2",
+    "mongoose": "^5.5.15",
+    "nodemon": "^1.19.1"
+  }
+}
